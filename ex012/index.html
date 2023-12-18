@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> adaptando imagens</title>
+
+    <style>
+        body{background-color: darkgreen;}
+    </style>
+</head>
+<body>
+    <h1>adaptando imagens em sites</h1>
+    <p>tente abirar esse site em varios dispositivos diferentes e simplemente aumenta e diminui o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:1000px )" srcset="imagens/imagem-m.png" type="image/png">     <img src="imagens/imagem-g.png" alt="imagem flexivel">
+
+    </picture>
+    
+    <h1>reproduzindo audio treinamento</h1>
+    <p>logo abaixo vc verá um audio</p>
+
+    <audio src="midia/zydecopiano.mp3" controls autoplay></audio>
+</body>
+</html>
