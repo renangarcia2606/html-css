@@ -7,6 +7,10 @@
     <title>Document</title>
 
     <style>
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
         *{margin: 0px;
             padding: 0px;
         
@@ -24,7 +28,10 @@
         h1{color: rgb(255, 255, 255);
             text-align: center;
             font-variant: small-caps;
-            font-size: 60px;
+            font-size: 70px;
+            font-family: 'Fjalla One', sans-serif;
+            font-weight: 900;
+            
             
             
         
@@ -57,12 +64,17 @@
         
         
         }
-        section.normal{background-color: white;}
+        section.normal{background-color: white;
+            background-attachment: fixed;
+        
+        }
 
 
 
         section.imagen{background-color: black;
             color: white;
+            box-shadow: inset 6px 6px 13px 0px black;
+            background-attachment: fixed;
         
         
         }
@@ -79,6 +91,7 @@
             width: 400px;
             border-radius: 10px;
             box-shadow: 1px 1px 1px ;
+            
 
 
         }
@@ -91,6 +104,32 @@
         
         
         }
+        p{font-family: 'Fjalla One', sans-serif;}
+
+        h2{margin-bottom: 30px;
+            padding-top: 9px;
+            font-size: 35px;
+            font-family: 'Fjalla One', sans-serif;
+        
+        }
+        section#imagen02{
+            background-image: url(../desafio01/imagens/background001.jpg);
+            background-position: right center;
+
+
+        }
+
+        section#imagen03{
+            background-image: url(../desafio01/imagens/background002.jpg);
+            background-position: right center;
+            background-repeat: no-repeat;
+            
+            background-size: cover;
+
+
+        }
+        section.imagen > h2{color: rgb(255, 255, 255);}
+        
      
 
         
@@ -134,7 +173,7 @@
 
 
 
-    <section class="imagen">
+    <section class="imagen" id="imagen02">
         <p>Depois de sofrer uma queda financeira em 2020 devido à pandemia <br> de Covid-19, a indústria global de música eletrônica parece <br>    estar revivendo após o retorno das apresentações ao vivo. Em 2021,<br> o valor da indústria chegou a US$ 6 bilhões, com músicos de EDM na  <br> lista dos criadores mais requisitados. Este guia é dedicado à <br>  história da música eletrônica, suas características definidoras <br> e os artistas mais significativos de um dos mais amplos e diversos gêneros musicais.</p>
 
 
@@ -164,7 +203,7 @@
 
     </section>
 
-    <section class="imagen">
+    <section class="imagen" id="imagen03">
         <h2>importancia da musica</h2>
         <p>Embora os efeitos da música nas pessoas ainda não sejam totalmente <br>compreendidos, estudos mostram que, quando você ouve música que gosta, <br>o cérebro realmente libera uma substância química chamada dopamina,<br> que tem efeitos positivos no humor. A música pode nos fazer emoções<br> fortes, como alegria, sentir tristeza ou medo, também tem o poder de <br>nos mover. Segundo alguns pesquisadores, a música também pode melhorar <br>nossa saúde e bem-estar.<br></p>
 
